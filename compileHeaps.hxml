@@ -1,0 +1,6 @@
+-cp src
+-lib heaps
+-lib domkit
+-js target/helloHeaps.js
+-main MainHeaps
+-debug

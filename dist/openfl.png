@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Not Found</title>
+	<style>
+		body {
+			font-family: sans-serif;
+		}
+		.container {
+			max-width: 800px;
+			margin: 30px auto;
+		}
+		.jumbotron {
+			padding: 30px;
+			border-radius: 30px;
+			background-color: rgb(230,230,230);
+		}
+		p[frown] {
+			text-align: center;
+		}
+		p[frown] span { 
+			transform: rotate(90deg);
+			display: inline-block;
+			color: #bbb;
+			font-size: 3em;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<p frown><span>:(</span></p>
+			
+			<summary class="error-summary"><h1 class="error-message">Page Not Found</h1></summary>
+			<details class="error-details">   </details>
+		
+		</div>
+	</div>
+
+<script type="text/javascript">
+console.error(decodeURIComponent("ufront.web.ErrorPageHandler.handleError%2844%29%3A%20Handling%20error%3A%20Error%3A%20Page%20Not%20Found%20website.controller.ProjectController.execute%3A19"))
+</script></body>
+</html>

@@ -6,11 +6,19 @@ class MainOpenFL extends Sprite {
 
     public function new () {
         super();
+        /*
+        BitmapData.loadFromFile ("openfl.png").onComplete (function (bitmapData) {
+    
+            var bitmap = new Bitmap (bitmapData);
+            addChild (bitmap);
+            
+          });
+          */
     }
 
 
     static function main () {
-        var stage = new Stage (550, 400, 0xFFFFFF, MainOpenFL);
+        var stage = new Stage (550, 400, 0xFF0000, MainOpenFL);
         js.Browser.document.body.appendChild(stage.element);
     }
 

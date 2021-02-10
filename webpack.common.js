@@ -1,10 +1,10 @@
 const path = require ('path');
 
 module.exports = {
-	entry: "./build.hxml",
+	entry: "./compileOpenFL.hxml",
 	output: {
 		path: path.resolve (__dirname, "dist"),
-		filename: "app.js"
+		filename: "appOpenFL.js"
 	},
 	resolve: {
 		alias: {

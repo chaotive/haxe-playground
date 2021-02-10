@@ -1,6 +1,5 @@
--cp src
--lib heaps
--lib domkit
--js target/helloOpenFL.js
 -main MainOpenFL
--debug
+-js src/appOpenFL.js
+-cp node_modules/openfl/lib
+-cp src
+-D source-map

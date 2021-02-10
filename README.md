@@ -1,20 +1,42 @@
 # haxe-playground
 
-## Dependencies management:
+## Vanilla JS, library style:
+
+Compile:
+
+    haxe -p src --main HelloWorld.hx --js target/HelloWorld.js
+
+## With Heaps
+
+Dependencies install:
 
     haxelib install heaps
     haxelib git domkit https://github.com/HeapsIO/domkit.git
 
-for hashlink?
+Dependencies for hashlink?
 
     haxelib install hlopenal
     haxelib install hsdl
     haxelib install hldx
 
-## Compile into JS:
-
-    haxe -p src --main HelloWorld.hx --js target/HelloWorld.js
-        
-or
+Compile:
 
     haxe .\compileHeaps.hxml
+
+Run:
+
+    indexHeaps.html
+
+## With OpenFL
+
+Dependencies install:
+
+    haxelib install openfl 9.0.2 
+
+Compile:
+
+    haxe .\compileOpenFL.hxml
+
+Run:
+
+    indexOpenFL.html

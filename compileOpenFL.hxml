@@ -1,4 +1,5 @@
 -main MainOpenFL
+-lib actuate
 -js src/appOpenFL.js
 -cp node_modules/openfl/lib
 -cp src

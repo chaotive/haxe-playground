@@ -3,7 +3,10 @@ import openfl.display.Stage;
 
 import openfl.display.Bitmap;
 import openfl.display.BitmapData;
+
 //import openfl.Assets;
+
+import motion.Actuate;
 
 class MainOpenFL extends Sprite {
 
@@ -14,11 +17,15 @@ class MainOpenFL extends Sprite {
 //        addChild (bitmap);
         BitmapData.loadFromFile ("openfl.png").onComplete (function (bitmapData) {
             var bitmap = new Bitmap (bitmapData);
+
             bitmap.x = 10;
             bitmap.y = 200;
             bitmap.rotation = 45;
             bitmap.alpha = 0.5;
+
             addChild (bitmap);
+
+            Actuate.tween (bitmap, 3, { x: 200 });
         });
     }
 

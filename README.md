@@ -34,6 +34,11 @@ Followed this tutorial: https://lib.haxe.org/p/openfl/9.0.2
 Dependencies install:
 
     haxelib install openfl 9.0.2 
+    npm nstall
+
+doesn't work:
+
+    haxelib install actuate
 
 Compile:
 
@@ -41,4 +46,4 @@ Compile:
 
 Run:
 
-    indexOpenFL.html
+    npm start

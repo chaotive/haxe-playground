@@ -5,8 +5,7 @@ import openfl.display.Bitmap;
 import openfl.display.BitmapData;
 
 //import openfl.Assets;
-
-import motion.Actuate;
+//import motion.Actuate;
 
 class MainOpenFL extends Sprite {
 
@@ -25,7 +24,7 @@ class MainOpenFL extends Sprite {
 
             addChild (bitmap);
 
-            Actuate.tween (bitmap, 3, { x: 200 });
+//            Actuate.tween (bitmap, 3, { x: 200 });
         });
     }
 

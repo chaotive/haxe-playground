@@ -13,10 +13,12 @@ class MainOpenFL extends Sprite {
 //        var bitmap = new Bitmap (bitmapData);
 //        addChild (bitmap);
         BitmapData.loadFromFile ("openfl.png").onComplete (function (bitmapData) {
-
             var bitmap = new Bitmap (bitmapData);
+            bitmap.x = 10;
+            bitmap.y = 200;
+            bitmap.rotation = 45;
+            bitmap.alpha = 0.5;
             addChild (bitmap);
-
         });
     }
 

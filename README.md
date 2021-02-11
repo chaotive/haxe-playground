@@ -29,6 +29,8 @@ Run:
 
 ## With OpenFL
 
+Followed this tutorial: https://lib.haxe.org/p/openfl/9.0.2
+
 Dependencies install:
 
     haxelib install openfl 9.0.2 
